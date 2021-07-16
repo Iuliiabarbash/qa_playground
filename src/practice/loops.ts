@@ -24,5 +24,21 @@
 //     console.log(`I love ${pieNames[i]} pie!`);
 // }
 // console.log('Pie list:', pieNames);
-    
+  
 
+// if(statement) {
+//     action;
+// }
+
+//If/Else
+
+// if(x == y) {
+//     console.log('x was equal to y')
+// }
+
+// if(statement is true) {
+//     //what is in here happenes
+// }
+// else{
+//     //this will not happem
+// }

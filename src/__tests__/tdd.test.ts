@@ -8,9 +8,9 @@ describe('plaindromeChecker', () => {
     it("", () => {});
 });
 
-function plaindromeChecker(theValue: string): boolean {
-    if (!word) return false;
-     const reversedWord: string = word.trim(). split(""). reverse().join("");
-     return  reversedWord.toLowerCase() == word.trim().toLowerCase();
+// function plaindromeChecker(theValue: string): boolean {
+//     if (!word) return false;
+//      const reversedWord: string = word.trim(). split(""). reverse().join("");
+//      return  reversedWord.toLowerCase() == word.trim().toLowerCase();
 
-}
+// }
