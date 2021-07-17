@@ -3,7 +3,7 @@ let myString = 'Hello there'
 
 import { createImmediatelyInvokedFunctionExpression } from "typescript"
 
-let firstArray = []
+let firstArray: Array<any> = []
 let secondArray = ['thing1', 'th2', '3']
 
 firstArray.push(0)
@@ -11,9 +11,17 @@ firstArray.push(true)
 firstArray.push("The Grinch")
 firstArray.push(27)
 
-// console.log(firstArray)
+
+console.log(firstArray)
 // console.log(firstArray[3])
-// console.log(firstArrey).pop()
+firstArray[2] = 'ANotherValue' //change value in a array
+console.log(firstArray)
+console.log(firstArray.length)
+firstArray.forEach(item => {})
+firstArray.push('item')
+console.log(firstArray)
+console.log(firstArray.pop())
+
 
 
 // for (let i = 0; i > -1; i++) {
@@ -26,18 +34,20 @@ for (let i = 0; i < firstArray.length; i++) {
 
 let favMovies: Array<string> = [
     'Die Hard',
-    'Pulp',
+    'Pulp fiction',
     'Lost in translatopn',
     'Saw',
-    '777',
+    'Avangers',
     '666',
     'Star wars'
 ]
 
-let stringify = (flix: any) => {
-console.log(`Oh my goodness: ${flix} is my fav`)
+//writing a function
+let stringify = (movie: string) => {
+console.log(`Oh my goodness: ${movie} is so GREAAT!`)
 }
 
-favMovies.forEach((movie) => {
-    stringify(movie)
+favMovies.forEach((flix) => {
+    // console.log(flix)
+    stringify(flix)
 })

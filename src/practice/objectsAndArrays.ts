@@ -71,3 +71,26 @@ console.log(`\t Movies:`);
 newArrayWithHappits.movies.forEach((movie) => {
     console.log(`\t\t${movie}`)
 });
+
+var anObject = {
+    name: "Yulia",
+    surname: "Barbash",
+    age: 31
+}
+// console.log(anObject.name)
+
+var objectInArray = [
+    {
+        name:"Yulia",
+        age: 31
+    },
+    {
+        name: 'Daniel',
+        age: 33
+    },
+    {
+        name: "Tatiana",
+        age: 37
+    }
+]
+console.log(objectInArray[1].name)
