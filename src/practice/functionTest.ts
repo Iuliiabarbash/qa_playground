@@ -136,3 +136,14 @@ printSubtotal(cart3, 3.65)
 
 
 // what if we need re use it we need create a function and use it
+
+function greet(name, lastName) {
+    console.log('Hello' + name + " " + lastName);
+}
+
+//John - is an argument of greet finction
+// agrument - is a value of sypply for that parameter
+//name - is parameter of greet function
+//parameter - what we have at the declaration 
+greet('John', 'Smith');
+//function can have inputs 

@@ -53,3 +53,23 @@ console.log(
     switchDay(myValue),
     switchDay('Saturday')
 )
+
+
+let x = 0
+
+function xY (aNum) {
+    switch(aNum) {
+        case x = 6:
+            return 6 * 2
+            break
+        case x = 0:
+            return x - 6
+            break
+        default:
+            return 100
+            break
+    }
+}
+
+console.log(xY(x),
+            xY(100))
